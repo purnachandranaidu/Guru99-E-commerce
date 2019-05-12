@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="E-commerceapplication" duration-ms="17164" started-at="2019-05-12T09:17:15Z" finished-at="2019-05-12T09:17:32Z">
+    <groups>
+    </groups>
+    <test name="e-commerceapplication test" duration-ms="17164" started-at="2019-05-12T09:17:15Z" finished-at="2019-05-12T09:17:32Z">
+      <class name="com.Guru99ecommerce.testcases.TC_Homepage_0001">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.Guru99ecommerce.testcases.TC_Homepage_0001@6615435c]" name="SetUp" is-config="true" duration-ms="16548" started-at="2019-05-12T14:46:58Z" finished-at="2019-05-12T14:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="title_verification()[pri:1, instance:com.Guru99ecommerce.testcases.TC_Homepage_0001@6615435c]" name="title_verification" duration-ms="42" started-at="2019-05-12T14:47:15Z" finished-at="2019-05-12T14:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title_verification -->
+        <test-method status="PASS" signature="Sort()[pri:2, instance:com.Guru99ecommerce.testcases.TC_Homepage_0001@6615435c]" name="Sort" duration-ms="4312" started-at="2019-05-12T14:47:15Z" finished-at="2019-05-12T14:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort -->
+        <test-method status="PASS" signature="title_verification1()[pri:3, instance:com.Guru99ecommerce.testcases.TC_Homepage_0001@6615435c]" name="title_verification1" duration-ms="16" started-at="2019-05-12T14:47:19Z" finished-at="2019-05-12T14:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title_verification1 -->
+        <test-method status="PASS" signature="Sort_Name()[pri:4, instance:com.Guru99ecommerce.testcases.TC_Homepage_0001@6615435c]" name="Sort_Name" duration-ms="12751" started-at="2019-05-12T14:47:19Z" finished-at="2019-05-12T14:47:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sort_Name -->
+      </class> <!-- com.Guru99ecommerce.testcases.TC_Homepage_0001 -->
+    </test> <!-- e-commerceapplication test -->
+  </suite> <!-- E-commerceapplication -->
+</testng-results>
