@@ -4,13 +4,16 @@
   <test thread-count="5" name="e-commerceapplication test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.Guru99ecommerce.testcases.TC_BillingInfoAddress_011">
+      <class name="com.Guru99ecommerce.testcases.TC_Homepage_0001">
         <methods>
-          <include name="Billingaddress"/>
+          <include name="title_verification"/>
+          <include name="title_verification1"/>
+          <include name="Sort_Name"/>
+          <include name="Sort"/>
           <include name="SetUp"/>
           <include name="Close"/>
         </methods>
-      </class> <!-- com.Guru99ecommerce.testcases.TC_BillingInfoAddress_011 -->
+      </class> <!-- com.Guru99ecommerce.testcases.TC_Homepage_0001 -->
     </classes>
   </test> <!-- e-commerceapplication test(failed) -->
 </suite> <!-- Failed suite [E-commerceapplication] -->

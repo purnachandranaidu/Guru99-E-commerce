@@ -2,10 +2,9 @@ package com.Guru99ecommerce.testcases;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
 
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -40,8 +39,9 @@ public class BaseClass {
 		System.setProperty("webdriver.chrome.driver", "F:\\chromedrive\\chromedriver.exe");
 		 driver=new ChromeDriver();
 		driver.get(url); 
-		logger=Logger.getLogger("Guru99ecommerce");
-		PropertyConfigurator.configure("log4j.properties");
+		logger=LogManager.getLogger("Guru99ecommerce");
+		System.setProperty("log4j.configurationFile","./log4j2.properties");
+		//PropertyConfiguratorManager.configure("log4j.properties");
 		driver.manage().window().maximize();
 		logger.info("Browser is Maximize");
 		

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.052" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="74.755" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="title_verification" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="0.048"/>
-  <testcase name="Sort" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="4.303"/>
-  <testcase name="title_verification1" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="0.035"/>
-  <testcase name="Sort_Name" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="12.732"/>
+  <testcase name="title_verification" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="0.014"/>
+  <testcase name="Sort" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="5.419"/>
+  <testcase name="title_verification1" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="0.03"/>
+  <testcase name="Sort_Name" classname="com.Guru99ecommerce.testcases.TC_Homepage_0001" time="12.88"/>
 </testsuite>
