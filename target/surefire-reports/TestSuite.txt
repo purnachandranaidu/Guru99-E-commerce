@@ -1,7 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 38.065 sec <<< FAILURE! - in TestSuite
-SetUp(com.Guru99ecommerce.testcases.TC_Homepage_0001)  Time elapsed: 37.692 sec  <<< FAILURE!
-org.apache.logging.log4j.core.config.ConfigurationException: No name attribute provided for Appender rolling
-
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.948 sec - in TestSuite
